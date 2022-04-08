@@ -1,0 +1,241 @@
+form label{
+  font-size: 13px !important;
+}
+
+.input-blue, .input-blue[readonly]{
+  background: #1B6AAA !important;
+  border-color: #428BCA;
+  color: #fff !important;
+}
+.input-yellow, .input-yellow[readonly]{
+  background-color: #F7D05B!important;
+  border-color: #FEE188;
+  color: #000 !important;
+}
+.input-green, .input-green[readonly], .input-green[disabled]{
+  background-color: #87B87F!important;
+border-color: #87B87F;
+  color: #fff !important;
+}
+
+.no-skin .nav-list>li>a {
+  /* background-color: rgba(0, 0, 0, 0.0) !important; */
+}
+.no-skin .nav-list>li.active>a, .no-skin .nav-list>li.active>a:focus, .no-skin .nav-list>li.active>a:hover {
+    /* background-color: rgba(0, 0, 0, 0.0) !important; */
+}
+.no-skin .sidebar {
+    background-color: #fff;
+}
+.page-content{
+  background-color: #fff !important;
+}
+.box-white{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+.chart-box{
+  margin-top:10px;
+  margin-bottom:10px;
+  border: 1px solid #438EB9;
+}
+.text-right{
+  text-align: right !important;
+}
+.skin-2 .navbar {
+    background: #00b91f !important;
+}
+
+.color-normal[readonly]{
+  background: #fff !important;
+  color: #858585 !important;
+}
+.color-grey{
+  background-color: #A0A0A0!important;
+}
+.color-red{
+  background-color: #ff745d!important;
+}
+.color-light{
+  background-color: #D9D9D9!important;
+  color: #888 !important;
+  border-color: #E7E7E7 !important;
+}
+.color-box-blue{
+    background-color: #b8d4fb!important;
+  padding:5px;
+}
+.color-box-red{
+    background-color: #ffd7d7 !important;
+  padding:5px;
+}
+.color-orange{
+    background-color: #e1bc1e !important;
+}
+.color-yellow{
+  background-color: #fff900 !important;
+}
+.color-blue{
+  background-color: #1ECBE1 !important;
+}
+.color-green{
+    background-color: #dff0d8 !important;
+    /* font-weight: 700; */
+}
+.display-none{
+  display: none
+}
+
+.text-bold{
+  font-weight: 700;
+}
+
+.color-selected{
+  background-color: #ff66fd !important;
+  /* color: #888 ; */
+  border-color: #E7E7E7 ;
+}
+.color-success{
+  background-color: #66ff99;
+  /* color: #888 ; */
+  border-color: #E7E7E7 ;
+}
+
+.color-bayar{
+  background-color: #00c9ff8a;
+  /* color: #888 ; */
+  border-color: #E7E7E7 ;
+}
+.color-pending{
+  background-color: #f5ff66;
+  /* color: #888 ; */
+  border-color: #E7E7E7 ;
+}
+.color-fail{
+  background-color: #ff8080;
+  /* color: #888 ; */
+  border-color: #E7E7E7 ;
+}
+.color-info{
+  background-color: #b8d4fb;
+  /* color: #888 ; */
+  border-color: #E7E7E7 ;
+}
+
+.ace-nav .nav-user-photo {
+height: 40px;
+width: 40px;
+}
+
+.text-flex{
+  padding: 3px 13px;
+  border: 1px solid #D5D5D5;
+  margin-bottom: 0px;
+}
+
+select[disabled] {
+    color: #939192;
+    background: #F5F5F5!important;
+    cursor: default;
+}
+select[disabled]:hover {
+    border-color: #c3c3c3;
+}
+.ui-dialog{
+  width: 800px !important;
+}
+
+.input-percent{
+  width: 60px;
+}
+
+.modal .input-tanggal{
+  width: 100px !important;
+}
+
+.sidebar.menu-min .nav-list>li>.submenu{
+  width: 300px !important;
+}
+
+.nav-list li.hover>.submenu{
+  width: 300px !important;
+}
+
+
+th {
+    text-align: center;
+    background-color: #307ECC !important;
+}
+.table>thead>tr{
+  color: #fff !important;
+
+}
+.dataTable>thead>tr>th.sorting_asc:after {
+    color: #707070;
+}
+
+.ace-nav>li.light-blue>a {
+    background-color: #333;
+}
+
+.ace-nav>li.light-blue>a:focus, .ace-nav>li.light-blue>a:hover, .ace-nav>li.open.light-blue>a{
+  background-color: #777;
+}
+
+.navbar {
+  background: #333;
+}
+
+.logo-image-tempo {
+    height: 40px;
+    width: 40px;
+    margin: -4px 8px 0 0;
+    border-radius: 100%;
+    border: 2px solid #FFF;
+    max-width: 40px;
+}
+.label-header {
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 2px 4px ;
+    vertical-align: middle !important;
+}
+.level_0{
+  padding-left:1em !important;
+}
+.level_1{
+  padding-left:2em !important;
+}
+.level_2{
+  padding-left:3.5em !important;
+}
+.level_3{
+  padding-left:4.6em !important;
+}
+.level_4{
+  padding-left:5.6em !important;
+}
+
+.custom-checkbox{
+  width: 35px;
+}
+.table-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-nowrap{
+  white-space: nowrap;
+}
+
+.custom-transaksi-menu{
+  border-color: #E5E5E5;
+  border-style: solid;
+    border-width: 1px;
+}

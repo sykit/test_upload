@@ -1,0 +1,59 @@
+.simple-tree-table-closed .simple-tree-table-icon::before{
+    font-family: FontAwesome;
+    font-size: 19px;
+    content: "\f105";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    color: #1279cd !important;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+.simple-tree-table-opened .simple-tree-table-icon::before{
+    font-family: FontAwesome;
+    font-size: 19px;
+    content: "\f107";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    color: #1279cd !important;
+    margin-right: 4px;
+    margin-top: -2px;
+}
+.simple-tree-table-opened{
+    background-color: #c3e6cb;
+}
+
+.table-closed::before{
+    font-family: FontAwesome;
+    font-size: 19px;
+    content: "\f105";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    color: #1279cd !important;
+    margin-right: 4px;
+    margin-top: -9px;
+    margin-bottom: -6px;
+    /* display:inline-block;*/
+    cursor:pointer;
+}
+.table-opened::before{
+    font-family: FontAwesome;
+    font-size: 19px;
+    content: "\f107";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    color: #1279cd !important;
+    margin-right: 4px;
+    margin-top: -9px;
+    margin-bottom: -6px;
+    cursor:pointer;
+}
+td .padding-parent{
+    padding-left: 1.8em;
+}
+/* .simple-tree-table-opened{
+    background-color: #c3e6cb;
+} */
